@@ -46,7 +46,7 @@ By the time you submit this project, you will have covered new ground in, and re
 - User must be able to change password
 - User must be able to sign out
 
-### Resource of your choice
+#### Resource of your choice
 - User must be able to create a resource
 - User must be able to edit a resource
 - User must be able to view all resources they created
