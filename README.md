@@ -23,7 +23,9 @@ By the time you submit this project, you will have covered new ground in, and re
 - **Responsive Web Design**: Making web applications that respond to device size.
 - **AJAX**: Using Axios to make asynchronous javascript calls.
 - **React**: A front end framework for building modern web applications.
-- **SQL**: Relational databases with SQL and PSQL.
+- **Server Side Applications**: Server-side scripting is a technique used in web development which involves employing scripts on a web server which produce a response customized for each user's (client's) request to the website.
+- **Databases**: A structured set of data held in a computer, especially one that is accessible in various ways.
+- **SQL**: SQL is used to communicate with a database. It is the standard language for relational database management systems. SQL statements are used to perform tasks such as update data on a database, or retrieve data from a database.
 - **Ruby**: Ruby programming fundamentals including Object Oriented Programming with Classes and Inheritance.
 - **Ruby on Rails**: A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
 
