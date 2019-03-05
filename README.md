@@ -57,8 +57,8 @@ Resource of your choice
 
 - Make application responsive
 - Add 2 or more resources other than user
-- Seed database with starter data for a resource
 - Use a 3rd party gem like [bootstrap](https://github.com/twbs/bootstrap-rubygem) 
+- [Seed database](https://gorails.com/episodes/intro-to-importing-from-csv) from CSV file of data
 - Use 3rd party API with [httparty](https://github.com/jnunemaker/httparty)
 - Allow users to upload image files with [Rails Active Storage](https://gorails.com/episodes/file-uploading-with-activestorage-rails-5-2)
 
