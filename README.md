@@ -56,7 +56,7 @@ Resource of your choice
 #### Stretch Technical Goals
 
 - Make application responsive
-- Add more than 1 resource other than user
+- Add 2 or more resources other than user
 - Seed database with starter data for a resource
 - Use a 3rd party gem like [bootstrap](https://github.com/twbs/bootstrap-rubygem) 
 - Use 3rd party API with [httparty](https://github.com/jnunemaker/httparty)
