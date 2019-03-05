@@ -33,10 +33,10 @@ By the time you submit this project, you will have covered new ground in, and re
 
 ### General Requirements
 
-- **Build a web application from scratch**, must be your own work.
-- **Use Ruby on Rails framework** to build your application
-- **Deploy on Heroku** so application is live on the web
-- **Craft a `README.md` file that explains your app** to the world
+- Build a web application from scratch, must be your own work.
+- Use Ruby on Rails framework to build your application
+- Deploy on Heroku so application is live on the web
+- Craft a `README.md` file that explains your app to the world
 
 ---
 
