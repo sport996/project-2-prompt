@@ -38,8 +38,6 @@ By the time you submit this project, you will have covered new ground in, and re
 - Deploy on Heroku so application is live on the web
 - Craft a `README.md` file that explains your app to the world
 
----
-
 ### Technical Requirements
 
 Authentication
@@ -69,8 +67,6 @@ Resource of your choice
 - Every team member must have commits contributing to the project.  
 - Pair programming is allowed and should be noted in the commit by using `@github_username` of each student pairing
 - No single student should do a majority of the commits
-
----
 
 ### Necessary Deliverables
 - Projects are due Thursday, 14/3 at 9am!  Submissions will be submitted via a google sheet before presentations start.
