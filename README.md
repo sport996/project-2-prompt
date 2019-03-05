@@ -40,20 +40,20 @@ By the time you submit this project, you will have covered new ground in, and re
 
 ### Technical Requirements
 
-Authentication
+#### Authentication
 - User must be able to sign up
 - User must be able to sign in
 - User must be able to change password
 - User must be able to sign out
 
-Resource of your choice
+### Resource of your choice
 - User must be able to create a resource
 - User must be able to edit a resource
 - User must be able to view all resources they created
 - User must be able to view a single resource they created
 - User must not be able to edit or delete other users' resources
 
-#### Stretch Technical Goals
+#### Stretch Technical Goals (optional)
 
 - Make application responsive
 - Add 2 or more resources other than user
