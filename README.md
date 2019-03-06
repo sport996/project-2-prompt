@@ -62,7 +62,10 @@ By the time you submit this project, you will have covered new ground in, and re
 - Use a 3rd party gem like [bootstrap](https://github.com/twbs/bootstrap-rubygem) 
 - [Seed database](https://gorails.com/episodes/intro-to-importing-from-csv) from CSV file of data
 - Use 3rd party API with [httparty](https://github.com/jnunemaker/httparty)
-- Allow users to upload image files with [Rails Active Storage](https://gorails.com/episodes/file-uploading-with-activestorage-rails-5-2)
+- Allow users to upload image files with 
+- [Rails Active Storage Video](https://gorails.com/episodes/file-uploading-with-activestorage-rails-5-2)
+- [Amazon s3 Tutorial](https://medium.com/alturasoluciones/setting-up-rails-5-active-storage-with-amazon-s3-3d158cf021ff)
+- [s3 Heroku Tutorial](https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails)
 
 ### Team Requirements
 
