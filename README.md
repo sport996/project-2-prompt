@@ -48,7 +48,7 @@ By the time you submit this project, you will have covered new ground in, and re
 - User must be able to change password
 - User must be able to sign out
 
-#### Resource of your choice
+#### 2 extra resources of your choice (other than User)
 - User must be able to create a resource
 - User must be able to edit a resource
 - User must be able to view all resources they created
@@ -58,11 +58,10 @@ By the time you submit this project, you will have covered new ground in, and re
 #### Stretch Technical Goals (optional)
 
 - Make application responsive
-- Add 2 or more resources other than user
 - Use a 3rd party gem like [bootstrap](https://github.com/twbs/bootstrap-rubygem) 
 - [Seed database](https://gorails.com/episodes/intro-to-importing-from-csv) from CSV file of data
 - Use 3rd party API with [httparty](https://github.com/jnunemaker/httparty)
-- Allow users to upload image files with 
+- Allow users to upload image files 
 - [Rails Active Storage Video](https://gorails.com/episodes/file-uploading-with-activestorage-rails-5-2)
 - [Amazon s3 Tutorial](https://medium.com/alturasoluciones/setting-up-rails-5-active-storage-with-amazon-s3-3d158cf021ff)
 - [s3 Heroku Tutorial](https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails)
@@ -74,7 +73,7 @@ By the time you submit this project, you will have covered new ground in, and re
 - No single student should do a majority of the commits
 
 ### Necessary Deliverables
-- Projects are due Thursday, 14/3 at 9am!  Submissions will be submitted via a google sheet before presentations start.
+- Projects are due Thursday, 4/26 at 9am!
 - A **10 minute presentation** in which you answer the following questions:
   - What is the application about?
   - Is there any information you think might help us understand what you built?
