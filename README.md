@@ -1,12 +1,10 @@
 # ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
 
-# Project #3: Full Stack Application
+# Project #2: Full Stack Application
 
 ## Overview:
 
-Your team will be creating a full stack application using Ruby on Rails.
-
-**You will be working as a team for this project**, everyone must contribute.  If 1 person does not contribute or 1 person does all the work then the entire team will fail requirements.
+You will be creating a full stack application using Ruby on Rails and Postgresql.
 
 ---
 
@@ -21,8 +19,6 @@ By the time you submit this project, you will have covered new ground in, and re
 - **Browser Applications**: Dive into CSS, and figure out how to use libraries and frameworks to get lots of style and functionality for free.
 - **Deployment**: Host a static web site in a managed hosting environment.
 - **Responsive Web Design**: Making web applications that respond to device size.
-- **AJAX**: Using Axios to make asynchronous javascript calls.
-- **React**: A front end framework for building modern web applications.
 - **Server Side Applications**: Server-side scripting is a technique used in web development which involves employing scripts on a web server which produce a response customized for each user's (client's) request to the website.
 - **Databases**: A structured set of data held in a computer, especially one that is accessible in various ways.
 - **SQL**: SQL is used to communicate with a database. It is the standard language for relational database management systems. SQL statements are used to perform tasks such as update data on a database, or retrieve data from a database.
@@ -60,21 +56,16 @@ By the time you submit this project, you will have covered new ground in, and re
 - Make application responsive
 - Use a 3rd party gem like [bootstrap](https://github.com/twbs/bootstrap-rubygem) 
 - [Seed database](https://gorails.com/episodes/intro-to-importing-from-csv) from CSV file of data
-- Use 3rd party API with [httparty](https://github.com/jnunemaker/httparty)
+- Use a 3rd party API with [httparty](https://github.com/jnunemaker/httparty)
 - Allow users to upload image files 
 - [Rails Active Storage Video](https://gorails.com/episodes/file-uploading-with-activestorage-rails-5-2)
 - [Amazon s3 Tutorial](https://medium.com/alturasoluciones/setting-up-rails-5-active-storage-with-amazon-s3-3d158cf021ff)
 - [s3 Heroku Tutorial](https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails)
 
-### Team Requirements
-
-- Every team member must have commits contributing to the project.  
-- Pair programming is allowed and should be noted in the commit by using `@github_username` of each student pairing
-- No single student should do a majority of the commits
 
 ### Necessary Deliverables
-- Projects are due Thursday, 4/26 at 9am!
-- A **10 minute presentation** in which you answer the following questions:
+- Projects are due Thursday, 7/25 at 9am!
+- A **5 minute presentation** in which you answer the following questions:
   - What is the application about?
   - Is there any information you think might help us understand what you built?
   - Demo of application
