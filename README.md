@@ -33,6 +33,7 @@ By the time you submit this project, you will have covered new ground in, and re
 
 - Build a web application from scratch, must be your own work.
 - Use Ruby on Rails framework to build your application
+- Don't use Rails Scaffolding for generating your resources.
 - Deploy on Heroku so application is live on the web
 - Craft a `README.md` file that explains your app to the world
 
@@ -72,7 +73,7 @@ By the time you submit this project, you will have covered new ground in, and re
   - What features did you include?
     - Make sure to explain anything "new" (things that we didn't cover in class)
   - What was the most difficult part of the project?
-  - What was your favourite part to work on?
+  - What was your favorite part to work on?
   - What would you like to add next?
 
 ---
