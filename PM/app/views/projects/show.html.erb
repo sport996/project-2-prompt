@@ -1,0 +1,43 @@
+<%# Fix edit button and show username in task table %>
+<h1><%= @project.name %> Project</h1>
+<h4>Owner: <%= @project.user.name %></h4>
+<h4>Project status: <%= @project.status %></h4>
+<% if current_user == @project.user %>
+    <%= form_for @project do |f| %>
+    <div class="">
+      <%= f.label :status, 'Change status:'%>
+      <%= f.select :status, ['Proposed', 'Active', 'Done'], selected: 'Proposed' %>
+    </div>
+    <%= f.submit "Submit", :class => "" %>
+    <% end %>
+<% end %>
+<p><%= @project.description %></p>
+
+<%# Tasks table, to in projects show page %>
+<table class="">
+  <tr>
+    <%# <th>Nom</th> %>
+    <th>Task name</th>
+    <th>Task</th>
+    <th>By</th>
+    <th>Status</th>
+    <th>Posted at</th>
+  </tr>
+  <% @project.tasks.each do |task| %>
+      <tr>
+        <%# <td><%= task.id </td> %>
+        <td><%= task.name %></td>
+        <td><%= task.task %></td>
+        <td><%= task.user.name %></td>
+        <td><%= task.status %></td>
+        <td><%= task.created_at.strftime("%d/%m/%Y") %></td>
+        <% if current_user == @project.user || current_user.admin == true %>
+            <td><%= link_to 'Edit', edit_task_path(task) %></td>
+            <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'You sure??' } %></td>
+        <% end %>
+      </tr>
+  <% end %>
+  <tr>
+  <%= render partial: 'tasks/form' %>
+  </tr>
+</table>
