@@ -1,7 +1,15 @@
 <h1>User's Info</h1>
+<br>
 
-<h5>Username: <%= @user.username %></h5>
-<h5>Email: <%= @user.username %></h5>
-<h5>Years of Experience: <%= @user.years_exp %></h5>
-<h5>Country: <%= @user.country %></h5>
-<h5>Programming skills: <%= @user.prog_lang %></h5>
+<h4>Username: <%= @user.username %></h4>
+<h4>Email: <%= @user.username %></h4>
+<h4>Years of Experience: <%= @user.years_exp %></h4>
+<h4>Country: <%= @user.country %></h4>
+<h4>Programming skills: <%= @user.prog_lang %></h4>
+
+<br>
+<% if user_signed_in? %>
+    <% if current_user %>
+        <%= link_to 'Edit' ,edit_user_registration_path(@user) ,class: "btn btn-primary" %>
+    <% end %>
+<% end %>

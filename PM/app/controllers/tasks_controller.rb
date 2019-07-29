@@ -5,6 +5,7 @@ class TasksController < ApplicationController
 
     def edit
         @task = Task.find(params[:id])
+        @project_id = params[:project_id]
     end
 
     def show
@@ -26,7 +27,7 @@ class TasksController < ApplicationController
     def update
         task = Task.find(params[:id])
         task.update(task_params)
-        redirect_to request.referrer
+        redirect_to project_path(params[:project_id])
     end
 
     def destroy
@@ -34,8 +35,6 @@ class TasksController < ApplicationController
         redirect_to request.referrer
     end
 
-    
-# ##########################################
     private
     def set_task
         @task = Task.find(params[:id])

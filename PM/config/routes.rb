@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root 'projects#index'
+  root 'homes#index'
+  resources :homes , only: [:index]
+  # root 'projects#index'
   devise_for :users
   resources :users
   resources :tasks
@@ -7,5 +9,6 @@ Rails.application.routes.draw do
   resources :projects do
     resources :tasks
   end
+  
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

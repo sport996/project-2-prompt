@@ -3,6 +3,9 @@ class UsersController < ApplicationController
     def index
         @users = User.all.order(:id)
     end
+    def edit
+        @user = User.find(params[:id])
+    end
 
     def show
         @user = User.find(params[:id])
@@ -15,7 +18,7 @@ class UsersController < ApplicationController
 
     private
     def user_params
-        params.require(:user).permit(:email, :status, :task)
+        params.require(:user).permit(:email, :username, :name, :prog_lang, :country)
     end
 
 end
