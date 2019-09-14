@@ -2,6 +2,9 @@
 
 # Project #2: Full Stack Application
 
+# Deployed link:
+https://projectmanag.herokuapp.com/
+
 ## Overview:
 
 a Project management community that enable users to propose an idea of a project and enable users to contribute in it .
